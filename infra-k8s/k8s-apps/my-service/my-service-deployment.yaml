@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: my-service
-          image: ddodoo/my-service/my-service:latest
+          image: ddodoo/my-service:latest
           ports:
             - containerPort: 9000
