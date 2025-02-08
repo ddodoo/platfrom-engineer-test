@@ -10,7 +10,7 @@ COPY pyproject.toml poetry.lock ./
 # Install Poetry (if using Poetry for dependency management)
 RUN pip install --no-cache-dir poetry && \
     poetry config virtualenvs.create false && \
-    poetry install --no-root --no-dev 
+    poetry install --no-root --only main
 
 # Copy the entire application
 COPY . .

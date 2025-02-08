@@ -4,11 +4,12 @@ metadata:
   name: my-service
   namespace: argocd
 spec:
+  project: default 
   destination:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: <YOUR_GIT_REPO_URL>
+    repoURL: https://github.com/ddodoo/platfrom-engineer-test.git
     path: infra-k8s/k8s-apps/my-service
     targetRevision: HEAD
   syncPolicy:

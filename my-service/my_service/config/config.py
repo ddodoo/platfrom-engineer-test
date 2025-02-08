@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     LOG_LEVEL: str = "DEBUG"
 
     # ArgoCD Config defaults
-    ARGOCD_SERVER: str = "https://localhost:8081" 
+    ARGOCD_SERVER: str = "https://localhost" 
     ARGOCD_PASSWORD: str = "daniel.dodoo"
     ARGOCD_USERNAME: str = "ops"                            
     TOKEN_CACHE_TTL: int = 600
