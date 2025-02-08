@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: my-service
-          image: my-registry.local:42049
+          image: my-registry.local:42049/my-service:latest
           ports:
             - containerPort: 9000
