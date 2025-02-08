@@ -9,7 +9,7 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/ddodoo/platfrom-engineer-test/tree/main/infra-k8s/k8s-apps/nginx
+    repoURL: https://github.com/ddodoo/platfrom-engineer-test.git
     path: infra-k8s/k8s-apps/nginx
     targetRevision: HEAD
   syncPolicy:
